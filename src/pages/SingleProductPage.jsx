@@ -1,6 +1,7 @@
 import React from "react";
 import Car from "../assets/Ferrari 812 Superfast.glb";
 import Chair from "../assets/CHAIR.glb";
+import Bed from "../assets/bed.glb";
 import QRCode from "qrcode.react";
 import { useLocation } from "react-router-dom";
 
@@ -25,7 +26,11 @@ const SingleProductPage = () => {
         <model-viewer
           className="modelviewer"
           style={modelViewer}
-          src={pathname === "1" ? Car : Chair}
+          src={
+            pathname === "1"
+              ? Car
+              : "https://res.cloudinary.com/dzh0wkv97/image/upload/v1694869306/AR%20glbs/bed_yao19d.glb"
+          }
           alt="Ferrari 812 SuperFast"
           ar
           auto-rotate
@@ -41,7 +46,6 @@ const SingleProductPage = () => {
             level={"H"}
             includeMargin={true}
           />
-          <h5 style={{ marginTop: 50 }}>QRCode URL: {window.location.href}</h5>
         </div>
       </div>
     </div>
