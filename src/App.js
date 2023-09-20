@@ -1,5 +1,5 @@
 import "./App.css";
-// import "@google/model-viewer/dist/model-viewer.min.js";
+import "@google/model-viewer/dist/model-viewer.min.js";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import SingleProductPage from "./pages/SingleProductPage";
 import Home from "./pages/Home";
@@ -17,7 +17,7 @@ function App() {
     <div className="App">
       <Router>
         <Navbar />
-        <div className="flex justify-center">
+        <div className="flex flex-col items-center justify-center mb-5">
           <model-viewer
             className="modelviewer"
             style={modelViewer}
@@ -26,11 +26,9 @@ function App() {
             }
             alt="Model"
             ar
-            ar-modes="webxr scene-viewer quick-look"
-            // auto-rotate
+            ar-modes="scene-viewer quick-look"
+            auto-rotate
             camera-controls
-            touch-action="pan-y"
-            shadow-intensity="1"
             poster={
               "https://res.cloudinary.com/dzh0wkv97/image/upload/v1695231965/AR%20glbs/Mercedes_pbnqau.png"
             }
