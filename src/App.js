@@ -26,7 +26,8 @@ function App() {
             }
             alt="Model"
             ar
-            auto-rotate
+            ar-modes="webxr scene-viewer quick-look"
+            // auto-rotate
             camera-controls
             touch-action="pan-y"
             shadow-intensity="1"
@@ -34,6 +35,7 @@ function App() {
               "https://res.cloudinary.com/dzh0wkv97/image/upload/v1695231965/AR%20glbs/Mercedes_pbnqau.png"
             }
           ></model-viewer>
+          <h1>CAR</h1>
         </div>
         <Routes>
           <Route exact path="/" element={<Home />} />
