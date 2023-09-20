@@ -6,7 +6,7 @@ const SingleProductPage = () => {
   const modelViewer = {
     backgroundColor: "#eee",
     overflowX: "hidden",
-    // posterColor: "#eee",
+    posterColor: "#eee",
     width: 300,
     height: 300,
   };
@@ -20,26 +20,29 @@ const SingleProductPage = () => {
           className="modelviewer"
           style={modelViewer}
           src={state?.cloudUrl}
-          alt="Ferrari 812 SuperFast"
+          alt="Model"
           ar
           auto-rotate
           camera-controls
+          touch-action="pan-y"
+          shadow-intensity="1"
+          poster={state?.imgUrl}
         ></model-viewer>
+
         <h2>{state.title}</h2>
+
         <h2>
           Price: <strong>&#8377;{state.price}</strong>
         </h2>
-        <div style={{ display: "flex", marginLeft: 50 }}>
-          <QRCode
-            id="1234"
-            value={window.location.href}
-            size={78}
-            bgColor={"#ffffff"}
-            fgColor={"#000000"}
-            level={"H"}
-            includeMargin={true}
-          />
-        </div>
+        <QRCode
+          id={state?.id}
+          value={window.location.href}
+          size={78}
+          bgColor={"#ffffff"}
+          fgColor={"#000000"}
+          level={"H"}
+          includeMargin={true}
+        />
       </div>
     </div>
   );

@@ -1,5 +1,5 @@
 import "./App.css";
-import "@google/model-viewer/dist/model-viewer.min.js";
+// import "@google/model-viewer/dist/model-viewer.min.js";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import SingleProductPage from "./pages/SingleProductPage";
 import Home from "./pages/Home";
