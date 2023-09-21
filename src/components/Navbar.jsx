@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 import SearchIcon from "@mui/icons-material/Search";
-import KeyboardVoiceIcon from "@mui/icons-material/KeyboardVoice";
-import MicOffIcon from "@mui/icons-material/MicOff";
 import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
 import PermIdentityIcon from "@mui/icons-material/PermIdentity";
 import ShoppingCartOutlinedIcon from "@mui/icons-material/ShoppingCartOutlined";
@@ -11,7 +9,6 @@ import { Link } from "react-router-dom";
 import CategoryOutlinedIcon from "@mui/icons-material/CategoryOutlined";
 import OtherHousesOutlinedIcon from "@mui/icons-material/OtherHousesOutlined";
 import SettingsOutlinedIcon from "@mui/icons-material/SettingsOutlined";
-import SecuritySharpIcon from "@mui/icons-material/SecuritySharp";
 import ClearIcon from "@mui/icons-material/Clear";
 
 const Navbar = () => {

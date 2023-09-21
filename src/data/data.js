@@ -7,6 +7,7 @@ export const data = [
       "https://res.cloudinary.com/dzh0wkv97/image/upload/v1694946053/AR%20glbs/Screenshot_997_jptp5t.png",
     title: "Astronaut",
     price: "400",
+    desc: "Astranaut Suit wore by Neil Armstrong on the space mission to moon.",
   },
   {
     id: 2,
@@ -16,6 +17,7 @@ export const data = [
       "https://res.cloudinary.com/dzh0wkv97/image/upload/v1694946053/AR%20glbs/Screenshot_998_hcnzzj.png",
     title: "Microphone",
     price: "199",
+    desc: "360Hz microphone, noice cancellation tech",
   },
   {
     id: 3,
@@ -25,6 +27,7 @@ export const data = [
       "https://res.cloudinary.com/dzh0wkv97/image/upload/v1694946054/AR%20glbs/Screenshot_999_l6ci2j.png",
     title: "Water Bottle",
     price: "40",
+    desc: "Climb Higher water bootle for boosting energy",
   },
   {
     id: 4,
@@ -34,6 +37,7 @@ export const data = [
       "https://res.cloudinary.com/dzh0wkv97/image/upload/v1694946052/AR%20glbs/Screenshot_1000_lwrmtn.png",
     title: "King Size Bed",
     price: "9800",
+    desc: "King size bed for 4 people",
   },
   {
     id: 5,
@@ -43,6 +47,7 @@ export const data = [
       "https://res.cloudinary.com/dzh0wkv97/image/upload/v1694946053/AR%20glbs/Screenshot_1001_hum12r.png",
     title: "Round Chair",
     price: "400",
+    desc: "Comfortable round chair, stylish furniture",
   },
   {
     id: 6,
@@ -52,6 +57,7 @@ export const data = [
       "https://res.cloudinary.com/dzh0wkv97/image/upload/v1695229972/AR%20glbs/Asus_gaming_laptop_z6curc.png",
     title: "Asus Gaming Laptop",
     price: "69000",
+    desc: "Gaming laptop, Ryzen 5 series, 16gb RAM, 1TB HDD, 256GB SSD",
   },
   {
     id: 7,
@@ -61,6 +67,7 @@ export const data = [
       "https://res.cloudinary.com/dzh0wkv97/image/upload/v1695230312/AR%20glbs/Iphone_14_ftq2l0.png",
     title: "Iphone 14 pro",
     price: "100",
+    desc: "Latest iphone, Amoled display, 128GB space, 8GB RAM",
   },
   {
     id: 8,
@@ -70,6 +77,7 @@ export const data = [
       "https://res.cloudinary.com/dzh0wkv97/image/upload/v1695230430/AR%20glbs/Guitar_ixmrzg.png",
     title: "Yamaha Guitar",
     price: "5900",
+    desc: "6 Strings guitar, made from plankton wood",
   },
   {
     id: 9,
@@ -79,6 +87,7 @@ export const data = [
       "https://res.cloudinary.com/dzh0wkv97/image/upload/v1695230518/AR%20glbs/Vending_Machine_gznl6p.png",
     title: "Vending Machine",
     price: "10000",
+    desc: "vending machine with 10 slots, each slot has 13 item capacity",
   },
   {
     id: 10,
@@ -88,6 +97,7 @@ export const data = [
       "https://res.cloudinary.com/dzh0wkv97/image/upload/v1695231965/AR%20glbs/Mercedes_pbnqau.png",
     title: "Mercedes 190 SLZ Toy Model",
     price: "999",
+    desc: "Toy car model for kids",
   },
 ];
 

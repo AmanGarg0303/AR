@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import QRCode from "qrcode.react";
 import { useLocation } from "react-router-dom";
 
@@ -12,6 +12,12 @@ const SingleProductPage = () => {
   };
 
   const { state } = useLocation();
+  useEffect(() => {
+    const toTop = () => {
+      window.scrollTo(0, 0);
+    };
+    toTop();
+  }, []);
 
   return (
     <div>

@@ -24,7 +24,7 @@ function App() {
           <Route path="/settings" element={<PhoneSettings />} />
           <Route path="/cart" element={<Cart />} />
           <Route path="/myorders" element={<MyOrders />} />
-          <Route path="/product/:id" element={<SingleProductPage />} />
+          <Route path="/products/:id" element={<SingleProductPage />} />
         </Routes>
 
         <Footer />
