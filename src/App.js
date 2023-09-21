@@ -4,41 +4,30 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import SingleProductPage from "./pages/SingleProductPage";
 import Home from "./pages/Home";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
+import PhoneCategories from "./components/PhoneCategories";
+import PhoneSettings from "./components/PhoneSettings";
+import AboutUs from "./pages/About";
+import Cart from "./pages/Cart";
+import MyOrders from "./pages/MyOrders";
 
 function App() {
-  const modelViewer = {
-    backgroundColor: "#eee",
-    overflowX: "hidden",
-    posterColor: "#eee",
-    width: 300,
-    height: 300,
-  };
   return (
     <div className="App">
       <Router>
         <Navbar />
-        <div className="flex flex-col items-center justify-center mb-5">
-          <model-viewer
-            className="modelviewer"
-            style={modelViewer}
-            src={
-              "https://res.cloudinary.com/dzh0wkv97/image/upload/v1695231913/AR%20glbs/SLZ_2_ubbyf5.glb"
-            }
-            alt="Model"
-            ar
-            ar-modes="scene-viewer quick-look"
-            auto-rotate
-            camera-controls
-            poster={
-              "https://res.cloudinary.com/dzh0wkv97/image/upload/v1695231965/AR%20glbs/Mercedes_pbnqau.png"
-            }
-          ></model-viewer>
-          <h1>CAR</h1>
-        </div>
+
         <Routes>
           <Route exact path="/" element={<Home />} />
+          <Route path="/about" element={<AboutUs />} />
+          <Route path="/categories" element={<PhoneCategories />} />
+          <Route path="/settings" element={<PhoneSettings />} />
+          <Route path="/cart" element={<Cart />} />
+          <Route path="/myorders" element={<MyOrders />} />
           <Route path="/product/:id" element={<SingleProductPage />} />
         </Routes>
+
+        <Footer />
       </Router>
     </div>
   );

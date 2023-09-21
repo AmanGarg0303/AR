@@ -6,7 +6,7 @@ export const data = [
     imgUrl:
       "https://res.cloudinary.com/dzh0wkv97/image/upload/v1694946053/AR%20glbs/Screenshot_997_jptp5t.png",
     title: "Astronaut",
-    price: "499",
+    price: "400",
   },
   {
     id: 2,
@@ -88,5 +88,72 @@ export const data = [
       "https://res.cloudinary.com/dzh0wkv97/image/upload/v1695231965/AR%20glbs/Mercedes_pbnqau.png",
     title: "Mercedes 190 SLZ Toy Model",
     price: "999",
+  },
+];
+
+export const dummyCategories = [
+  {
+    id: 1,
+    title: "Electronics",
+    desc: "Add talent to AI",
+    total: 7500,
+    img: "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aGVhZHBob25lc3xlbnwwfHwwfHw%3D&w=1000&q=80",
+    linkTo: "electronics",
+  },
+  {
+    id: 2,
+    title: "Clothing",
+    desc: "Buy latest brands clothes",
+    total: 10000,
+    img: "https://st4.depositphotos.com/1002256/21825/i/600/depositphotos_218254406-stock-photo-set-cool-woman-stuff-new.jpg",
+    linkTo: "clothing",
+  },
+  {
+    id: 3,
+    title: "Education",
+    desc: "Get latest technology education books",
+    total: 1500,
+    img: "https://assets.thehansindia.com/h-upload/2022/07/31/1305709-education.webp",
+    linkTo: "education",
+  },
+  {
+    id: 4,
+    title: "Grocery",
+    desc: "Share your message",
+    total: 2500,
+    img: "https://thumbs.dreamstime.com/b/lots-groceries-17001094.jpg",
+    linkTo: "grocery",
+  },
+  {
+    id: 5,
+    title: "Shoes",
+    desc: "Engage your audience",
+    total: 4000,
+    img: "https://images.unsplash.com/photo-1460353581641-37baddab0fa2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHNob2VzfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
+    linkTo: "shoes",
+  },
+  {
+    id: 6,
+    title: "Sports",
+    desc: "Reach more customers",
+    total: 1500,
+    img: "https://img.freepik.com/free-photo/sports-tools_53876-138077.jpg",
+    linkTo: "sports",
+  },
+  {
+    id: 7,
+    title: "Toys",
+    desc: "Children toys",
+    total: 1200,
+    img: "https://media.istockphoto.com/id/687165852/photo/toys.jpg?b=1&s=170667a&w=0&k=20&c=aECJBVRGL3jNtrbiHOTMq1-5rSv3xeNUpZywEZYwvX4=",
+    linkTo: "toys",
+  },
+  {
+    id: 8,
+    title: "Pets",
+    desc: "Color you dreams",
+    total: 1000,
+    img: "https://farewellpet.com/wp-content/uploads/2022/04/146606662_l-1024x684-1.jpg",
+    linkTo: "pets",
   },
 ];
