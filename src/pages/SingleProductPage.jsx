@@ -16,8 +16,6 @@ const SingleProductPage = () => {
 
   const finalData = data.find((item) => item.id == id);
 
-  console.log(finalData);
-
   useEffect(() => {
     const toTop = () => {
       window.scrollTo(0, 0);
