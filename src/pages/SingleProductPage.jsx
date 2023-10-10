@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import QRCode from "qrcode.react";
-import { useLocation } from "react-router-dom";
+import { useParams } from "react-router-dom";
+import { data } from "../data/data";
 
 const SingleProductPage = () => {
   const modelViewer = {
@@ -11,7 +12,12 @@ const SingleProductPage = () => {
     height: 300,
   };
 
-  const { state } = useLocation();
+  const { id } = useParams();
+
+  const finalData = data.find((item) => item.id == id);
+
+  console.log(finalData);
+
   useEffect(() => {
     const toTop = () => {
       window.scrollTo(0, 0);
@@ -25,23 +31,23 @@ const SingleProductPage = () => {
         <model-viewer
           className="modelviewer"
           style={modelViewer}
-          src={state?.cloudUrl}
+          src={finalData?.cloudUrl}
           alt="Model"
           ar
           auto-rotate
           camera-controls
           touch-action="pan-y"
           shadow-intensity="1"
-          poster={state?.imgUrl}
+          poster={finalData?.imgUrl}
         ></model-viewer>
 
-        <h2>{state.title}</h2>
+        <h2>{finalData?.title}</h2>
 
         <h2>
-          Price: <strong>&#8377;{state.price}</strong>
+          Price: <strong>&#8377;{finalData?.price}</strong>
         </h2>
         <QRCode
-          id={state?.id}
+          id={finalData?.id}
           value={window.location.href}
           size={78}
           bgColor={"#ffffff"}

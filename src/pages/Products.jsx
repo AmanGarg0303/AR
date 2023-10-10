@@ -7,7 +7,7 @@ const Products = () => {
     <div>
       {data.map((d) => (
         <div key={d.id}>
-          <Link to={`/product/${d.id}`} state={d}>
+          <Link to={`/product/${d.id}`}>
             <div className="my-5 px-3">
               <img src={d.imgUrl} alt={d.title} className="w-96" />
 
