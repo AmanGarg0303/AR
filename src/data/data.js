@@ -96,8 +96,148 @@ export const data = [
     imgUrl:
       "https://res.cloudinary.com/dzh0wkv97/image/upload/v1695231965/AR%20glbs/Mercedes_pbnqau.png",
     title: "Mercedes 190 SLZ Toy Model",
-    price: "999",
+    price: "250",
     desc: "Toy car model for kids",
+  },
+  {
+    id: 11,
+    cloudUrl:
+      "https://res.cloudinary.com/dzh0wkv97/image/upload/v1695464157/visuals/ssogwf7f6xga6cslm5zu.glb",
+    imgUrl:
+      "https://res.cloudinary.com/dzh0wkv97/image/upload/v1695464157/visuals/s11siawwxujwwm3qxntu.png",
+    title: "LG TV 44in | 144Hz display | 4 star rating",
+    price: "500",
+    desc: "Best LG TV in the market, have ports which can be connected to a pc or a xbox. Perfect 144Hz display.",
+  },
+  {
+    id: 12,
+    cloudUrl:
+      "https://res.cloudinary.com/dzh0wkv97/image/upload/v1695465904/visuals/sffmt9txlzyheweobsnq.glb",
+    imgUrl:
+      "https://res.cloudinary.com/dzh0wkv97/image/upload/v1695465903/visuals/pge1y7ucictqb0tw3zu0.png",
+    title: "Tripod Lamp",
+    price: "480",
+    desc: "2 bright 24W lights in the tripod, adjustable height upto 4meters.",
+  },
+  {
+    id: 13,
+    cloudUrl:
+      "https://res.cloudinary.com/dzh0wkv97/image/upload/v1695477895/visuals/pebbjvnfutry3tnqlibc.glb",
+    imgUrl:
+      "https://res.cloudinary.com/dzh0wkv97/image/upload/v1695477893/visuals/qvcq5zl3z6bzhibshd8i.png",
+    title: "Library Book Rack",
+    price: "400",
+    desc: "Library Book Shelf with 5 shelfs area, each shelf able to carry upto 30kgs of weight, made with glass and steel. Fancy looks.",
+  },
+  {
+    id: 14,
+    cloudUrl:
+      "https://res.cloudinary.com/dzh0wkv97/image/upload/v1695484054/visuals/egkut0qseij1n4h2svq7.glb",
+    imgUrl:
+      "https://res.cloudinary.com/dzh0wkv97/image/upload/v1695484055/visuals/cyql2vgdvcvu7gh6d2ww.png",
+    title: "Glass Table",
+    price: "300",
+    desc: "Fancy glass and wooden table.",
+  },
+  {
+    id: 15,
+    cloudUrl:
+      "https://res.cloudinary.com/dzh0wkv97/image/upload/v1695486300/visuals/otleefguir28diwmbkgv.glb",
+    imgUrl:
+      "https://res.cloudinary.com/dzh0wkv97/image/upload/v1695486302/visuals/nwxl8ixxlwaavhgwk04k.png",
+    title: "Furnished Sofa",
+    price: "300",
+    desc: "High class brownish furnished sofa with a comfy leather seats.",
+  },
+  {
+    id: 16,
+    cloudUrl:
+      "https://res.cloudinary.com/dzh0wkv97/image/upload/v1695737301/visuals/Chair_y73xgt.glb",
+    imgUrl:
+      "https://res.cloudinary.com/dzh0wkv97/image/upload/v1695737301/visuals/Screenshot_1081_zaomn5.png",
+    title: "High class office chair",
+    price: "450",
+    desc: "Office chair with armrest, rotating wheels, back support and adjustable height",
+  },
+  {
+    id: 17,
+    cloudUrl:
+      "https://res.cloudinary.com/dzh0wkv97/image/upload/v1695737928/visuals/Office_Chair_a0er9l.glb",
+    imgUrl:
+      "https://res.cloudinary.com/dzh0wkv97/image/upload/v1695737928/visuals/Screenshot_1083_qy8anf.png",
+    title: "Gaming Chair",
+    price: "450",
+    desc: "Gaming chair with armrest, rotating wheels, back support and adjustable height",
+  },
+  {
+    id: 18,
+    cloudUrl:
+      "https://res.cloudinary.com/dzh0wkv97/image/upload/v1695740550/visuals/Complete_Skateboard_vmeemc.glb",
+    imgUrl:
+      "https://res.cloudinary.com/dzh0wkv97/image/upload/v1695740551/visuals/Screenshot_1098_sgekhf.png",
+    title: "Skateboard",
+    price: "100",
+    desc: "Skateboard made from ash and paple wood.",
+  },
+  {
+    id: 19,
+    cloudUrl:
+      "https://res.cloudinary.com/dzh0wkv97/image/upload/v1695824132/visuals/Sheriff_Hat_ntdmiw.glb",
+    imgUrl:
+      "https://res.cloudinary.com/dzh0wkv97/image/upload/v1695824132/visuals/Screenshot_1119_kjzkqk.png",
+    title: "Sheriff Hat",
+    price: "80",
+    desc: "Sheriff and a cowboy hat with a star badge on it.",
+  },
+  {
+    id: 20,
+    cloudUrl:
+      "https://res.cloudinary.com/dzh0wkv97/image/upload/v1695749971/visuals/Keyboard_esfzyv.glb",
+    imgUrl:
+      "https://res.cloudinary.com/dzh0wkv97/image/upload/v1695749972/visuals/Screenshot_1103_csyx4h.png",
+    title: "Wireless Keyboard",
+    price: "800",
+    desc: "Wireless Keyboard with right side extra numpad, arm support available too.",
+  },
+  {
+    id: 21,
+    cloudUrl:
+      "https://res.cloudinary.com/dzh0wkv97/image/upload/v1695820226/visuals/Glasses_1_obhtbp.glb",
+    imgUrl:
+      "https://res.cloudinary.com/dzh0wkv97/image/upload/v1695820227/visuals/Screenshot_1106_sdyfae.png",
+    title: "Avaitors",
+    price: "120",
+    desc: "Bluish avaitors for only handsome men.",
+  },
+  {
+    id: 22,
+    cloudUrl:
+      "https://res.cloudinary.com/dzh0wkv97/image/upload/v1695820975/visuals/T-shirt_rral7n.glb",
+    imgUrl:
+      "https://res.cloudinary.com/dzh0wkv97/image/upload/v1695820974/visuals/Screenshot_1112_x7dbbw.png",
+    title: "Colorful T-shirt for men/boys",
+    price: "150",
+    desc: "Colorful tshirt, poly cotton material.",
+  },
+  {
+    id: 23,
+    cloudUrl:
+      "https://res.cloudinary.com/dzh0wkv97/image/upload/v1695825981/visuals/13647_Polo_Team_Shirt_v2_L3_gxrvds.glb",
+    imgUrl:
+      "https://res.cloudinary.com/dzh0wkv97/image/upload/v1695825978/visuals/Screenshot_1120_hkdy4l.png",
+    title: "Polo tshirt",
+    price: "250",
+    desc: "Polo tshirt for boys in a white reddish color.",
+  },
+  {
+    id: 24,
+    cloudUrl:
+      "https://res.cloudinary.com/dzh0wkv97/image/upload/v1695740069/visuals/Sneakers_cifvrl.glb",
+    imgUrl:
+      "https://res.cloudinary.com/dzh0wkv97/image/upload/v1695740070/visuals/Screenshot_1095_frppyn.png",
+    title: "Cool Sneakers",
+    price: "2500",
+    desc: "Cool bluish sneakers, with a high ankle length.",
   },
 ];
 

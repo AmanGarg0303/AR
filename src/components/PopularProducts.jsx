@@ -14,10 +14,10 @@ const PopularProducts = () => {
           <div className="py-8 mx-auto">
             <div className="flex flex-wrap -m-4">
               {data?.map((f) => (
-                <div className="p-4 md:w-1/3" key={f?.id}>
+                <div className="p-4 sm:w-1/2 md:w-1/3" key={f?.id}>
                   <div className="h-full border-2 border-gray-300 bg-[#f6f6f6] border-opacity-60 rounded-lg overflow-hidden">
                     <img
-                      className="lg:h-48 md:h-36 w-full object-cover object-center"
+                      className="lg:h-48 md:h-36 w-full object-contain object-center bg-gray-200"
                       src={f?.imgUrl}
                       alt="blog"
                     />
